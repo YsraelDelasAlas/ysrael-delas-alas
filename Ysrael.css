@@ -1,0 +1,97 @@
+img {
+	width: 10%;
+	position: absolute;
+	
+}
+.info {
+	text-align: left;
+	color: white;
+	font-size: 150%;
+  	top: 25px;
+  	left: 175px;
+	position: absolute;
+}
+body {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+.logos ul {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.logos ul li {
+	list-style: none;
+	margin: 0 15px;
+}
+.logos ul li .fab {
+	font-size: 30px;
+	line-height: 60px;
+	transition: .6s;
+	color: #000;
+}
+.logos ul li a {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow:  0 5px 4px rgba(0,0,0,)
+}
+.logos ul li a:hover {
+	transform: translate(0, -8px);
+}
+h1 {
+	position: absolute;
+	top: 10%;
+	left: 17%;
+}
+.logos ul li:nth-child(1) a:hover {
+	background-color: #3b5999;
+}
+.logos ul li:nth-child(2) a:hover {
+	background-color: #e4405f;
+}
+.logos ul li:nth-child(3) a:hover {
+	background-color: #cd201f;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#STUDENTFILE {
+	top: 310px;
+	background-color: #4CAF50;
+}
+
+#Gallery {
+	top: 250px;
+  	background-color: #2196F3;
+}
+
+#HOME {
+	top: 190px;
+  	background-color: #f44336;
+}

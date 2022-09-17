@@ -1,0 +1,43 @@
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#STUDENTFILE {
+	top: 310px;
+	background-color: #4CAF50;
+}
+
+#Gallery {
+	top: 250px;
+  	background-color: #2196F3;
+}
+
+#HOME {
+	top: 190px;
+  	background-color: #f44336;
+}
+
+body {
+    background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat;
+    background-image: url("Gundam.jpg");
+}
+
+h1{
+  color: white;
+}
